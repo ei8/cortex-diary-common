@@ -22,8 +22,8 @@ namespace works.ei8.Cortex.Diary.Common
             this.Version = original.Version;
             this.AuthorId = original.AuthorId;
             this.AuthorTag = original.AuthorTag;
-            this.LayerId = original.LayerId;
-            this.LayerTag = original.LayerTag;
+            this.RegionId = original.RegionId;
+            this.RegionTag = original.RegionTag;
             this.Timestamp = original.Timestamp;
             this.Errors = original.Errors;
         }
@@ -83,9 +83,9 @@ namespace works.ei8.Cortex.Diary.Common
 
         public string AuthorTag { get; set; }
 
-        public string LayerId { get; set; }
+        public string RegionId { get; set; }
 
-        public string LayerTag { get; set; }
+        public string RegionTag { get; set; }
 
         public string Timestamp { get; set; }
 
