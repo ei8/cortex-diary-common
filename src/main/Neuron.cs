@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace works.ei8.Cortex.Diary.Common
+namespace ei8.Cortex.Diary.Common
 {
     public class Neuron : IEquatable<Neuron>
     {

@@ -1,6 +1,6 @@
 ﻿using System.Collections.ObjectModel;
 
-namespace works.ei8.Cortex.Diary.Common
+namespace ei8.Cortex.Diary.Common
 {
     // DEL: Unnecessarily duplicated from EventSourcing.Common, remove upon NotificationData refactor
     public class NotificationLog

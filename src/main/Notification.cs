@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace works.ei8.Cortex.Diary.Common
+namespace ei8.Cortex.Diary.Common
 {
     // DEL: Unnecessarily duplicated from EventSourcing.Common, remove upon NotificationData refactor
     public class Notification

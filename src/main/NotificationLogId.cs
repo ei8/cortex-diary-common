@@ -1,10 +1,10 @@
-﻿using org.neurul.Common.Domain.Model;
+﻿using neurUL.Common.Domain.Model;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace works.ei8.Cortex.Diary.Common
+namespace ei8.Cortex.Diary.Common
 {
     // DEL: Unnecessarily duplicated from EventSourcing.Common, remove upon NotificationData refactor
     public class NotificationLogId : ValueObject
