@@ -21,6 +21,7 @@ namespace ei8.Cortex.Diary.Common
             this.AuthorId = original.AuthorId;
             this.AuthorTag = original.AuthorTag;            
             this.Timestamp = original.Timestamp;
+            this.Active = original.Active;
         }
 
         public string Id { get; set; }
@@ -32,5 +33,6 @@ namespace ei8.Cortex.Diary.Common
         public string AuthorId { get; set; }
         public string AuthorTag { get; set; }
         public string Timestamp { get; set; }
+        public bool Active { get; set; }
     }
 }

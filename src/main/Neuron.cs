@@ -25,7 +25,7 @@ namespace ei8.Cortex.Diary.Common
             this.RegionId = original.RegionId;
             this.RegionTag = original.RegionTag;
             this.Timestamp = original.Timestamp;
-            this.Errors = original.Errors;
+            this.Active = original.Active;
         }
 
         [JsonIgnore]
@@ -89,6 +89,6 @@ namespace ei8.Cortex.Diary.Common
 
         public string Timestamp { get; set; }
 
-        public IEnumerable<string> Errors { get; set; }
+        public bool Active { get; set; }
     }
 }
