@@ -4,13 +4,6 @@ using System.Text;
 
 namespace ei8.Cortex.Diary.Common
 {
-    public enum RelativeType
-    {
-        NotSet,
-        Postsynaptic,
-        Presynaptic
-    }
-
     // DEL: Unnecessarily duplicated from EventSourcing.Common, remove upon NotificationData refactor
     public struct Event
     {
